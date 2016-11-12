@@ -20,8 +20,7 @@
       return count;
   }   
   ```
-  
-		**Answer: n ^ 2 - nested for loops
+  Answer: O(n ^ 2) - nested for loops
 
 2. **What is the expected running time of the following C# code?**
   - Explain why using Markdown.
@@ -38,9 +37,9 @@
                       count++;
       return count;
   }
-  ```
-  
-		**Answer: n * m First loop - rows of matrix Second Loop - cols of matrix(different number from n)
+  ```  
+  Answer: O(n * m) Wrost Case: First loop - rows of matrix Second Loop - (if numbers are even)cols of matrix(different number from n)
+  BestCase O(n) - if all elements are odd
 
 3. **(*) What is the expected running time of the following C# code?**
   - Explain why using Markdown.
@@ -60,4 +59,4 @@
   Console.WriteLine(CalcSum(matrix, 0));
   ```
   
-  Answer: n * m  every single n invoke a m number of CalcSum(recursion)
+  Answer: O(n * m)  every single n invoke a m number of CalcSum(recursion)
